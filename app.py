@@ -9,5 +9,5 @@ def main():
   if st.button("Find Largest"):
     l=find_largest(n1,n2,n3)
     st.write(f"The largest number is:{l}")
-if _name_ == "__main__":
+if __name__ == "__main__":
   main()
