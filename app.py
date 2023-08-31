@@ -2,7 +2,7 @@ import streamlit as st
 def find_largest(n1,n2,n3):
   return max(n1,n2,n3)
 def main():
-  st.title("Find the Laregest Number")
+  st.title("Find the Largest Number")
   n1=st.number_input("Enter 1st num")
   n2=st.number_input("Enter 2nd num")
   n3=st.number_input("Enter 3rd num")
